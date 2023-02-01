@@ -2,7 +2,7 @@
 Aqui está apresentado em repositório a resposta ao Trabalho 2 de Savi 2022-2023
 https://github.com/miguelriemoliveira/savi_22-23/tree/main/Trabalho2
 
-#Sumário
+# Sumário
 Objetivo 1 - Treino de um classificador em deep learning
 
 Objetivo 2 - Pre-processamento 3D
