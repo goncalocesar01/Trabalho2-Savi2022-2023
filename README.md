@@ -34,7 +34,7 @@ e a distancia ao centro.
 # Objetivo 3
 O programa abre a point cloud apenas de cada objeto de maneira a retirar a que se possa retirar uma print ao fechar a janela e passando então  pelo classificador realizado no objetivo 1. 
 # Objetivo 4
-Para a descrição aúdio da cena foi utilizado o Google Text-to-speech utilizando as identificação do classificador.
+Para a descrição aúdio da cena foi utilizado o Google Text-to-speech utilizando a identificação do classificador.
 # Objetivo 5
 Para o objetivo 5 não tínhamos à disposição uma câmara adequada. 
 Assim, decidimos identificar a mão de um utilizador na imagem obtida em tempo real e, 
