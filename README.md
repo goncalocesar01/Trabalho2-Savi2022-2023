@@ -16,7 +16,7 @@ Objetivo 4 - Descrição áudio da cena
 Objetivo 5 - Sistema em tempo real
 
 # Objetivo 1
-Para treinar o classificador utilizou-se o dataset retirado do link http://rgbd-dataset.cs.washington.edu/dataset/rgbd-dataset/ (aqui apenas retiramos os objetos que se encontram nas cenas e alguns adicionais para o teste do sistema em tempo real) e a ferramenta torch como sistema de deep learning. O dataset foi separado em 80% treino e 20%.
+Para treinar o classificador utilizou-se o dataset retirado do link http://rgbd-dataset.cs.washington.edu/dataset/rgbd-dataset/ (aqui apenas retiramos os objetos que se encontram nas cenas e alguns adicionais para o teste do sistema em tempo real, separando este em 80% ara treino e os restantes testar apartir da visualização) e a ferramenta torch como sistema de deep learning. O dataset foi separado em 80% treino e 20%.
 
 # Objetivo 2
 O sistema processa a nuvem de pontos de uma cena (dados do RGB-D Scenes Dataset), isola os objetos na nuvem de pontos, encontra uma transformação geométrica em que coloqua o sistema de coordenadas no centro da mesa com o eixo Z virado para baixo. A nova nuvem de pontos contem apenas os pontos contidos numa caixa próxima da origem, e dessa forma isola os pontos da mesa.
