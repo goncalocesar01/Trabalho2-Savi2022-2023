@@ -32,7 +32,7 @@ o volume,
 e a distancia ao centro.
 
 # Objetivo 3
-O programa abre a point cloud apenas de cada objeto de maneira a retirar a que se possa retirar uma print ao fechar a janela e passando então  pelo classificador realizado no objetivo 1. 
+O programa abre a point cloud apenas de cada objeto de maneira a retirar uma print ao fechar a janela e passando então  pelo classificador realizado no objetivo 1. 
 # Objetivo 4
 Para a descrição aúdio da cena foi utilizado o Google Text-to-speech utilizando a identificação do classificador.
 # Objetivo 5
