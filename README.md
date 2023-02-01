@@ -15,4 +15,4 @@ Objetivo 4 - Descrição áudio da cena
 
 Objetivo 5 - Sistema em tempo real
 
-
+Como resposta a estes objetivos realizamos este código que é corrido apartir do main aqui este vai selecionar os outros programas apartir de entrada no terminal de diferentes números 
