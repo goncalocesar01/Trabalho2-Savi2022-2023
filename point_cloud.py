@@ -128,7 +128,7 @@ def main():
     print("Load a ply point cloud, print it, and render it")
        
     dataset_path = './datasets/pcd' # relative path
-    point_cloud_filenames = glob.glob(dataset_path+'/13.pcd')
+    point_cloud_filenames = glob.glob(dataset_path+'/*.pcd')
     
     point_cloud_filename = random.choice(point_cloud_filenames)
     #point_cloud_filename = 'datasets/pcd/13.pcd'
