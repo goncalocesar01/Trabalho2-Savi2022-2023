@@ -15,8 +15,8 @@ Objetivo 4 - Descrição áudio da cena
 
 Objetivo 5 - Sistema em tempo real
 
-Como resposta a estes objetivos realizamos este programa que é corrido apartir do main, este vai selecionar os outros scripts apartir do input dado ao terminal
-No input 1 corre a parte do treino do classificado 
+# Objetivo 1
+
 
 # Objetivo 2
 O sistema processa a nuvem de pontos de uma cena (dados do RGB-D Scenes Dataset), isola os objetos na nuvem de pontos, encontra uma transformação geométrica em que coloqua o sistema de coordenadas no centro da mesa com o eixo Z virado para baixo. A nova nuvem de pontos contem apenas os pontos contidos numa caixa próxima da origem, e dessa forma isola os pontos da mesa.
@@ -30,3 +30,13 @@ a largura,
 o volume,
 
 e a distancia ao centro.
+
+# Objetivo 3
+Aqui o programa retira uma print a cada objeto ao fechar a janela e passa pelo classificador realizado no objetivo 1 
+# Objetivo 4
+Para a descrição aúdio da cena foi utilizado o Google Text-to-speech utilizando as identificação do classificador.
+# Objetivo 5
+Para o objetivo 5 não tínhamos à disposição uma câmara adequada. 
+Assim, decidimos identificar a mão de um utilizador na imagem obtida em tempo real e, 
+colocando uma "bounding box" na ponta do dedo indicador, extraímos uma imagem clicando na tecla 'p'. 
+Esta imagem vai ser processada pelo nosso identificador para obtermos uma possível classificação do objeto.
